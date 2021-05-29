@@ -1,0 +1,49 @@
+#cuerpoPaginaFAQ{
+    background-image: url("imagenes/fondoQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 14% 0% 10% 0%;
+
+    p{
+        font-family: 'Lato', sans-serif;
+        font-size:18px;
+        margin: 0%;
+    }
+
+    .parrafo__faq--size{
+        font-family: 'Lato', sans-serif;
+        font-weight:normal;
+        font-size:14px;
+        text-transform: none;
+    }
+
+    #accordionExample{
+        width: 50%;
+        margin: 0% 25% 0% 25%;
+        border: none;
+    }
+
+    .accordion-item:first-of-type{
+        border-radius: 0%;
+    }
+    .accordion-item:last-of-type{
+        border-radius: 0%;
+    }
+    
+    .accordion-button:not(.collapsed){
+        color:#333;
+        background-color:#fec8d85d;  
+    }
+    
+    .accordion-button:not(.collapsed)::after{
+        background-image: none;
+        transform:rotate(180deg);}
+    
+    
+    .accordion-button:focus {
+        border-color: #FEC8D8;
+        box-shadow: 0 0 0 0.25rem  #FEC8D8;
+    }
+    
+}

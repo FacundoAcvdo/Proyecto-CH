@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/*Fuentes*/
+@font-face {
+    font-family: 'Lemon/Milk Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Regular'), url('fonts/LemonMilk.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Lemon/Milk Regular italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Regular italic'), url('fonts/LemonMilkitalic.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Lemon/Milk light italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk light italic'), url('fonts/LemonMilklightitalic.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Lemon/Milk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Bold'), url('fonts/LemonMilkbold.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Lemon/Milk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Bold'), url('fonts/LemonMilkbolditalic.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Lemon/Milk light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk light Regular'), url('fonts/LemonMilklight.woff') format('woff');
+    }
+/*Colores*/
+$fondo-boton:#a984ba;
+$fondo-boton2:#815c97;
+$fondo-cajas:#f3d9ff;
+/*Barra nav*/
+@import"navmq";
+@import "nav";
+/*Footer*/
+@import "footer";
+/*Index*/
+@import "index";
+/*Productos*/
+@import "productos";
+/*Quienes Somos*/
+@import "qSomos";
+/*FAQ*/
+@import "faq";
+/*Contacto*/
+@import "contacto";
+/*MQ*/
+@import "mqindex";
+@import "mqproductos";
+@import "mqquienessomos";
+@import "mqfaq";
+@import "mqcontacto";

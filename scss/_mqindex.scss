@@ -1,0 +1,223 @@
+@media only screen and (min-width:320px){
+    body{
+        width: 100%;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        
+        .footer__cont{
+            font-size: 8px;
+            margin: 5px 0;
+            .footer__link{
+                font-size: 8px;
+                padding:0;
+            }
+        }
+
+    }
+
+    .cuerpoIndex{
+        padding: 35% 0% 30% 0%;
+    
+        .cuerpoIndex__centro{
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+
+            .verProductos{
+                background-color:$fondo-boton;
+                text-align:center;
+                padding: 3%;
+                margin: 10% 15% 5% 15%;
+                border-radius: 800px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:576px){
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+
+        .header__logo{
+            width: 5%;
+            height: 5%;
+            margin-right:25%;
+        }
+        
+        .header__nav{
+            text-align: center;
+            width: 100%;
+
+            .header__link{
+                color: snow;
+                text-decoration: none;
+                margin: 0% 1% 0% 1%;
+                padding: 1% 2%;            
+            }
+
+            .header__link--negro{
+                color: #333;
+            }    
+        }
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        
+        .footer__cont{
+            font-size: 12px;
+            margin: 5px 0;
+            .footer__link{
+                font-size: 12px;
+                padding:0;
+            }
+        }
+    }
+
+    .cuerpoIndex{
+        padding: 45% 0% 30% 0%;
+    
+        .cuerpoIndex__centro{
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+
+            .verProductos{
+                background-color:$fondo-boton;
+                text-align:center;
+                padding: 3%;
+                margin: 8% 35% 0% 35%;
+                border-radius: 800px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    .header{
+        flex-direction: column;
+
+        .header__logo{
+            width: 5%;
+            height: 5%;
+            margin-right:17%;
+        }
+        
+        .header__nav{
+            text-align: center;
+            width: 100%;
+
+            .header__link{
+                color: snow;
+                text-decoration: none;
+                margin: 0% 1% 0% 1%;
+                padding: 1% 3%;            
+            }
+
+            .header__link--negro{
+                color: #333;
+            }    
+        }
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+        
+        .footer__cont{
+            font-size: 14px;
+            margin: 5px 0;
+            .footer__link{
+                font-size: 14px;
+                padding:0;
+            }
+        }
+
+    }
+
+    .cuerpoIndex{
+        padding: 20% 0% 10% 0%;
+    
+        .cuerpoIndex__centro{
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+        }
+    }
+}
+
+@media only screen and (min-width:992px){
+
+    .header{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+    
+        .header__logo{
+            width: 8%;
+            height: 8%;
+            margin-left:10%;
+            margin-right: 0%;
+        }
+    
+        .header__nav{
+            text-align: center;
+            width:60%;
+    
+            .header__link{
+                margin: 1%;
+                padding: 1% 3%;                
+                font-size:85%;
+            }
+
+            .header__link--negro{
+                color: #333;
+            }   
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content:space-around;
+        align-items: center;
+        padding: 1%;
+        background-color:snow;
+    
+        .footer__cont{
+    
+            font-family: 'Lemon/Milk light Regular';
+            font-weight: normal;
+            font-size: 14px;
+    
+            .footer__link{
+                font-family: 'Lemon/Milk light Regular';
+                font-weight: normal;
+                font-size: 14px;
+                text-transform: capitalize;
+                text-decoration: none;
+                color: #333;
+                padding: 5px 0;
+            }
+        }
+    }
+
+
+    .cuerpoIndex{
+        padding: 15% 0% 10% 0%;
+    
+        .cuerpoIndex__centro{
+            width: 50%;
+            margin: 0% 25% 0% 25%;
+        }
+    }
+}

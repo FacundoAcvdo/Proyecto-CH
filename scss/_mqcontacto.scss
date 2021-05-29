@@ -1,0 +1,117 @@
+@media only screen and (min-width:320px){
+    .cuerpoContacto{
+        padding: 25% 0% 10% 0%;
+    
+        .cuerpoContacto__form{
+            width: 80%;
+            margin-left:10%;
+            margin-right: 10%;
+        }
+    
+        .cuerpoContacto__datos{
+            margin: 1% 0%;
+            width: 245px;
+        }
+
+        .cuerpoContacto__mensaje{
+            width: 245px;
+        }
+
+        .cuerpoContacto__enviar{
+            width: 245px;
+        }
+    }
+}
+
+@media only screen and (min-width:576px){
+    .cuerpoContacto{
+        padding: 35% 0% 10% 0%;
+    
+        .cuerpoContacto__form{
+            width: 80%;
+            margin-left:10%;
+            margin-right: 10%;
+        }
+    
+        .cuerpoContacto__datos{
+            margin: 1% 0%;
+            width: 445px;
+        }
+
+        .cuerpoContacto__mensaje{
+            width: 445px;
+        }
+
+        .cuerpoContacto__enviar{
+            width: 455px;
+        }
+    }
+}
+
+@media only screen and (min-width:768px){
+    .cuerpoContacto{
+        padding: 25% 0% 10% 0%;
+    
+        .cuerpoContacto__form{
+            width: 80%;
+            margin-left:10%;
+            margin-right: 10%;
+        }
+    
+        .cuerpoContacto__datos{
+            margin: 1% 0%;
+            width: 545px;
+        }
+
+        .cuerpoContacto__mensaje{
+            width: 545px;
+        }
+
+        .cuerpoContacto__enviar{
+            width: 555px;
+        }
+    }
+}
+
+@media only screen and (min-width:992px){
+    .cuerpoContacto{
+        padding: 10% 0% 10% 0%;
+    
+        .cuerpoContacto__form{
+            width: 40%;
+            margin-left:15%;
+            margin-right: auto;
+        }
+
+        .cuerpoContacto__datos{
+            width: 180px;
+            height: 25px;
+            padding: 0px 0px 0px 10px;
+            margin:0;
+        }
+    
+        .cuerpoContacto__mensaje{
+            width: 375px;
+            padding: 5px 0px 0px 10px;
+        }
+    
+        .cuerpoContacto__enviar{
+            font-family: 'Noto Sans', sans-serif;
+            width: 385px;
+            margin: 3px 0px 0px 0px;
+            padding: 0px 0px 0px 10px;
+        }
+    }
+} 
+
+@media only screen and (min-width:1200px){
+    .cuerpoContacto{
+        padding: 10% 0% 10% 0%;
+    
+        .cuerpoContacto__form{
+            width: 30%;
+            margin-left:15%;
+            margin-right: auto;
+        }
+    }
+}

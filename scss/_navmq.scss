@@ -1,0 +1,50 @@
+.d-flex{
+    background-color: transparent;
+    position: absolute;
+} 
+
+.btn-secondary{
+    background-color: transparent;
+    border: 0px;
+}
+
+.btn-secondary:hover{
+    background-color: transparent;
+    border: 0px;
+}
+
+.btn-secondary:focus{
+    background-color: transparent;
+    border: 0px;
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color:snow;
+    border: 0px;
+}
+
+.btn:active{
+    background-color: transparent;
+    border: 0px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    border: 0;
+    margin: 0%;
+    background-color: snow;
+}
+
+.dropdown-item{
+    font-family:'Lemon/Milk light Regular';
+    font-weight:normal;
+    font-size:12px;;
+    color: #333;
+}

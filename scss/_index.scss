@@ -1,0 +1,55 @@
+.cuerpoIndex{
+    background-image: url("imagenes/fondoi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 15% 0% 10% 0%;
+
+        .cuerpoIndex__centro{
+            width: 50%;
+            margin: 0% 25% 0% 25%;
+            color:snow;
+            padding: 5% 0%;
+            text-decoration: none;
+            text-align: center;
+
+            .cuerpoIndex__titulo{
+                font-family:'Lemon/Milk Regular';
+                font-weight:normal;
+                font-size:42px;
+                text-transform: uppercase;
+                padding-bottom: 2%;
+                margin: 0% 15% 2% 15%;
+                border-bottom: 1px solid snow;
+            }
+
+            .cuerpoIndex__sub{
+                font-family:'Lemon/Milk Regular';
+                font-weight:normal;
+                font-size:15px;
+                text-transform: uppercase;
+            }
+
+            .verProductos{
+                background-color:$fondo-boton;
+                text-align:center;
+                padding: 3%;
+                margin: 8% 35% 0% 35%;
+                border-radius: 800px;
+
+                .verProductos__texto{
+                    color:snow;
+                    text-decoration: none;
+                    font-family:'Lemon/Milk Regular';
+                    font-weight:normal;
+                    font-size:12px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .verProductos:hover{
+                background-color: $fondo-boton2;
+            }
+
+        }
+    }

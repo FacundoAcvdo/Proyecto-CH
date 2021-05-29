@@ -1,0 +1,103 @@
+.cuerpoProductos{
+    background-color: #f5f5f5;
+    background-image: url("imagenes/fondoP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.cuerpoProductos__centro{
+    width: 86%;
+    margin: 0% 7% 0% 7%;
+    /*Grids*/
+    display: grid;
+    grid-template-areas: 
+        "h1 h1 h1 h1"
+        "p1 p2 p3 p4"
+        "p5 p6 p7 p8"
+        "p9 p10 p11 p12";
+    
+    justify-content: space-evenly;
+    grid-row-gap: 50px;
+    grid-column-gap:2px ;
+    justify-items: center;
+    align-items: center;
+    /*Fondo*/
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15% 0% 15% 0%;
+
+    .cuerpoProductos__border:hover{
+        transform: scale(1.05);
+        transition: 30ms;
+        background-color: snow;
+        border: 1px solid #333!important;
+
+    }
+
+    .cuerpoProductos__border{
+
+        width: 100%;
+        padding: 15px 15px 25px 15px;
+        background-color: #f5f5f5;
+
+        .cuerpoProductos__des{
+            font-family:"Lemon/Milk Regular";
+            font-weight:normal;
+            text-transform: uppercase;
+            font-size:12px;
+            color: #757575;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            width: 100%;
+        }
+
+        .cuerpoProductos__foto{
+            width:250px;
+            height: 250px;
+            padding-bottom:5%;
+            border-bottom: 1px solid #333;
+        }
+
+        .verMas{
+            background-color:$fondo-boton;
+            border-radius:1px;
+            font-family:'Lemon/Milk Regular';
+            font-weight:normal;
+            font-size:10px;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            color: #f5f5f5;
+            width: 100%;
+            padding:10px;
+            margin-bottom: 20;
+        }
+
+        .verMas:hover{
+            background-color:$fondo-boton2;
+            transition: 1s;
+        }
+
+    }
+
+    .cuerpoProdcutos__titulo{
+        grid-area: h1;
+        width: 200%;
+        padding-bottom: 2%;
+        margin: 0% 50% 0% 0%;
+        border-bottom: 2px solid #333;
+        font-family:'Lemon/Milk Regular italic';
+        font-weight:normal;
+        font-size:42px;
+        text-transform: uppercase;
+    }
+
+    @for $productos from 1 through 12{
+        #p#{$productos}{
+            grid-area: p#{$productos};
+        }
+    }
+}

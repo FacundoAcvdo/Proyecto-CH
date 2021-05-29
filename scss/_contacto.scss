@@ -1,0 +1,70 @@
+.cuerpoContacto{
+    background-image: url("imagenes/fondoP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 10% 0% 10% 0%;
+
+    .cuerpoContacto__form{
+        width: 30%;
+        margin-left:15%;
+    }
+
+    .cuerpoContacto__titulo{
+        font-family:'Lemon/Milk light Regular';
+        font-size:22px;
+        color: #333;
+        margin: 15px 0;
+        padding: 0px 0px 10px 0px;
+        width: 175px;
+        border-bottom: 1px solid #333;
+    }
+
+    .cuerpoContacto__parrafo{
+        text-align: justify;
+        font-family: 'Noto Sans', sans-serif;
+        font-size:14px;
+        color: #616161;
+        margin: 5px 0 10px 0;
+    }
+
+    .cuerpoContacto__persona{
+        margin: 50px 0px 10px 0px;
+    }
+
+    .cuerpoContacto__datos{
+        font-family: 'Noto Sans', sans-serif;
+        width: 180px;
+        height: 25px;
+        padding: 0px 0px 0px 10px;
+        background-color: snow;
+        border: none;
+    }
+
+    .cuerpoContacto__mensaje{
+        font-family: 'Noto Sans', sans-serif;
+        width: 375px;
+        padding: 5px 0px 0px 10px;
+        background-color: snow;
+        border: none;
+    }
+
+    .cuerpoContacto__anim:hover{
+        background-color: $fondo-cajas;
+    }
+
+    .cuerpoContacto__enviar{
+        font-family: 'Noto Sans', sans-serif;
+        width: 385px;
+        height: 30px;
+        margin: 3px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
+        background-color: $fondo-boton2;
+        border: none; 
+    }
+
+    .cuerpoContacto__enviar:hover{
+        background-color: $fondo-boton;
+    }
+
+}
