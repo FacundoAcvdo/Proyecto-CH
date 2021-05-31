@@ -1,6 +1,30 @@
+@media only screen and (min-width:320px){
+    .cuerpoP{
+        padding: 25% 0% 10% 0%;
+        font-size: 8px;
+
+        .cuerpoP__titulo{
+            margin: 0% 10% 5% 5%;
+        }
+
+        .cuerpoP__centro{
+            font-size: 8px;
+        }
+    }
+}
+
 @media only screen and (min-width:576px){
     .cuerpoP{
         padding: 30% 0% 10% 0%;
+        font-size: 14px;
+
+        .cuerpoP__titulo{
+            margin: 0% 10% 5% 5%;
+        }
+
+        .cuerpoP__centro{
+            font-size: 14px;
+        }
     }
 }
 
@@ -19,5 +43,9 @@
 @media only screen and (min-width:920px){
     .cuerpoP{
         padding: 18% 0% 10% 0%;
+
+        .cuerpoP__titulo{
+            margin: 0% 40% 5% 10%;
+        }
     }
 }

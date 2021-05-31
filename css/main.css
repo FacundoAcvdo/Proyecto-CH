@@ -197,29 +197,29 @@
     border-bottom: 0.125rem solid #333;
     font-family: 'Lemon/Milk Regular italic';
     font-weight: normal;
-    font-size: 2.625rem;
+    font-size: 2.625em;
     text-transform: uppercase; }
   .cuerpoP .cuerpoP__centro {
-    width: 80%;
-    margin: 0% 10% 0% 10%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: transparent;
-    font-size: 1rem; }
+    font-size: 16px; }
     .cuerpoP .cuerpoP__centro .cuerpoP__contenedor {
       background-color: #f5f5f5;
-      width: 16.875rem;
-      margin-bottom: 1.875rem;
-      padding: 0.625rem;
+      width: 16.875em;
+      margin-bottom: 1.875em;
+      padding: 0.625em;
       display: grid;
       grid-template-areas: "fotoP" "textoP" "linkP"; }
     .cuerpoP .cuerpoP__centro .cuerpoP__contenedor:hover {
       transform: scale(1.05);
       transition: 30ms;
       background-color: snow;
-      border: 0.0625rem solid #333 !important; }
+      border: 0.0625em solid #333 !important; }
     .cuerpoP .cuerpoP__centro .fotoP {
       grid-area: fotoP;
       width: 15.625em;
@@ -232,23 +232,23 @@
       font-family: "Lemon/Milk Regular";
       font-weight: normal;
       text-transform: uppercase;
-      font-size: 0.75rem;
+      font-size: 0.75em;
       color: #757575;
       width: 100%; }
     .cuerpoP .cuerpoP__centro .linkP {
       grid-area: linkP;
       font-size: 1em;
       background-color: #a984ba;
-      border-radius: 0.0625rem;
+      border-radius: 0.0625em;
       font-family: 'Lemon/Milk Regular';
       font-weight: normal;
-      font-size: 0.625rem;
+      font-size: 0.625em;
       text-transform: uppercase;
       text-decoration: none;
       text-align: center;
       color: #f5f5f5;
-      padding: 0.625rem;
-      margin-right: 7.8125rem; }
+      padding: 0.625em;
+      margin-right: 7.8125em; }
     .cuerpoP .cuerpoP__centro .linkP:hover {
       background-color: #815c97;
       transition: 1s; }
@@ -307,13 +307,13 @@
     border-radius: 0%; }
   #cuerpoPaginaFAQ .accordion-button:not(.collapsed) {
     color: #333;
-    background-color: #fec8d85d; }
+    background-color: #a984ba3b; }
   #cuerpoPaginaFAQ .accordion-button:not(.collapsed)::after {
     background-image: none;
     transform: rotate(180deg); }
   #cuerpoPaginaFAQ .accordion-button:focus {
-    border-color: #FEC8D8;
-    box-shadow: 0 0 0 0.25rem  #FEC8D8; }
+    border-color: #a984ba;
+    box-shadow: 0 0 0 0.25rem  #a984bab9; }
 
 /*Contacto*/
 .cuerpoContacto {
@@ -382,7 +382,7 @@
         font-size: 8px;
         padding: 0; }
   .cuerpoIndex {
-    padding: 65% 0% 60% 0%; }
+    padding: 65% 0% 65% 0%; }
     .cuerpoIndex .cuerpoIndex__centro {
       width: 100%;
       margin: 0% 0% 0% 0%; }
@@ -510,9 +510,23 @@
       width: 50%;
       margin: 0% 25% 0% 25%; } }
 
+@media only screen and (min-width: 320px) {
+  .cuerpoP {
+    padding: 25% 0% 10% 0%;
+    font-size: 8px; }
+    .cuerpoP .cuerpoP__titulo {
+      margin: 0% 10% 5% 5%; }
+    .cuerpoP .cuerpoP__centro {
+      font-size: 8px; } }
+
 @media only screen and (min-width: 576px) {
   .cuerpoP {
-    padding: 30% 0% 10% 0%; } }
+    padding: 30% 0% 10% 0%;
+    font-size: 14px; }
+    .cuerpoP .cuerpoP__titulo {
+      margin: 0% 10% 5% 5%; }
+    .cuerpoP .cuerpoP__centro {
+      font-size: 14px; } }
 
 @media only screen and (min-width: 690px) {
   .cuerpoP {
@@ -524,11 +538,13 @@
 
 @media only screen and (min-width: 920px) {
   .cuerpoP {
-    padding: 18% 0% 10% 0%; } }
+    padding: 18% 0% 10% 0%; }
+    .cuerpoP .cuerpoP__titulo {
+      margin: 0% 40% 5% 10%; } }
 
 @media only screen and (min-width: 320px) {
   .cuerpoQS {
-    padding: 25% 0% 10% 0%;
+    padding: 45% 0% 20% 0%;
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -604,7 +620,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 25% 0% 10% 0%; }
+    padding: 40% 0% 50% 0%; }
     #cuerpoPaginaFAQ p {
       font-family: 'Lato', sans-serif;
       font-size: 12px;
@@ -684,7 +700,7 @@
 
 @media only screen and (min-width: 320px) {
   .cuerpoContacto {
-    padding: 25% 0% 10% 0%; }
+    padding: 25% 0% 15% 0%; }
     .cuerpoContacto .cuerpoContacto__form {
       width: 80%;
       margin-left: 10%;

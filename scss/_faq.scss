@@ -33,7 +33,7 @@
     
     .accordion-button:not(.collapsed){
         color:#333;
-        background-color:#fec8d85d;  
+        background-color:#a984ba3b;  
     }
     
     .accordion-button:not(.collapsed)::after{
@@ -42,8 +42,8 @@
     
     
     .accordion-button:focus {
-        border-color: #FEC8D8;
-        box-shadow: 0 0 0 0.25rem  #FEC8D8;
+        border-color: $fondo-boton;
+        box-shadow: 0 0 0 0.25rem  #a984bab9;
     }
     
 }
