@@ -105,10 +105,8 @@
       text-decoration: none;
       margin: 1%;
       padding: 1% 3%;
-      font-family: 'Lemon/Milk Regular';
-      font-weight: normal;
-      font-size: 85%;
-      text-transform: uppercase; }
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600; }
     .header .header__nav .header__link:hover {
       border-bottom: 2px solid snow; }
     .header .header__nav .header__link--negro {
@@ -126,14 +124,13 @@
   padding: 1%;
   background-color: snow; }
   .footer .footer__cont {
-    font-family: 'Lemon/Milk light Regular';
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 14px; }
     .footer .footer__cont .footer__link {
-      font-family: 'Lemon/Milk light Regular';
-      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
       font-size: 14px;
-      text-transform: capitalize;
       text-decoration: none;
       color: #333;
       padding: 5px 0; }
@@ -155,16 +152,16 @@
     text-decoration: none;
     text-align: center; }
     .cuerpoIndex .cuerpoIndex__centro .cuerpoIndex__titulo {
-      font-family: 'Lemon/Milk Regular';
-      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
       font-size: 42px;
       text-transform: uppercase;
       padding-bottom: 2%;
-      margin: 0% 15% 2% 15%;
+      margin: 0% 20% 5% 20%;
       border-bottom: 1px solid snow; }
     .cuerpoIndex .cuerpoIndex__centro .cuerpoIndex__sub {
-      font-family: 'Lemon/Milk Regular';
-      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
       font-size: 15px;
       text-transform: uppercase; }
     .cuerpoIndex .cuerpoIndex__centro .verProductos {
@@ -176,9 +173,9 @@
       .cuerpoIndex .cuerpoIndex__centro .verProductos .verProductos__texto {
         color: snow;
         text-decoration: none;
-        font-family: 'Lemon/Milk Regular';
-        font-weight: normal;
-        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
         text-transform: uppercase; }
     .cuerpoIndex .cuerpoIndex__centro .verProductos:hover {
       background-color: #815c97; }
@@ -195,8 +192,8 @@
     padding-bottom: 0.9375rem;
     margin: 0% 40% 5% 10%;
     border-bottom: 0.125rem solid #333;
-    font-family: 'Lemon/Milk Regular italic';
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     font-size: 2.625em;
     text-transform: uppercase; }
   .cuerpoP .cuerpoP__centro {
@@ -205,13 +202,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     background-color: transparent;
     font-size: 16px; }
     .cuerpoP .cuerpoP__centro .cuerpoP__contenedor {
-      background-color: #f5f5f5;
+      background-color: white;
       width: 16.875em;
-      margin-bottom: 1.875em;
+      margin: 0em 0.125em 0.9375rem 0.125em;
       padding: 0.625em;
       display: grid;
       grid-template-areas: "fotoP" "textoP" "linkP"; }
@@ -225,16 +222,16 @@
       width: 15.625em;
       height: 15.625em;
       padding-bottom: 0.625rem;
-      margin-bottom: 0.9375rem;
+      margin-bottom: 1rem;
       border-bottom: 0.125rem solid #333; }
     .cuerpoP .cuerpoP__centro .textoP {
       grid-area: textoP;
-      font-family: "Lemon/Milk Regular";
-      font-weight: normal;
-      text-transform: uppercase;
-      font-size: 0.75em;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 0.875em;
       color: #757575;
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 0.625em; }
     .cuerpoP .cuerpoP__centro .linkP {
       grid-area: linkP;
       font-size: 1em;
@@ -247,8 +244,8 @@
       text-decoration: none;
       text-align: center;
       color: #f5f5f5;
-      padding: 0.625em;
-      margin-right: 7.8125em; }
+      padding: 1.2em;
+      margin-right: 9.375em; }
     .cuerpoP .cuerpoP__centro .linkP:hover {
       background-color: #815c97;
       transition: 1s; }
@@ -264,8 +261,8 @@
     width: 50%;
     margin: 0% 5% 0% 40%; }
   .cuerpoQS .cuerpoQS__titulo {
-    font-family: 'Lemon/Milk Regular';
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
     color: #333;
@@ -274,12 +271,12 @@
     padding-bottom: 10px;
     width: 250px; }
   .cuerpoQS .cuerpoQS__parrafo {
-    font-family: 'Signika', sans-serif;
-    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 16px;
-    color: #333;
+    color: #494949;
     margin: 0% 0% 2% 5%;
-    text-align: justify; }
+    text-align: left; }
 
 /*FAQ*/
 #cuerpoPaginaFAQ {
@@ -289,13 +286,14 @@
   background-position: center;
   padding: 14% 0% 10% 0%; }
   #cuerpoPaginaFAQ p {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     margin: 0%; }
   #cuerpoPaginaFAQ .parrafo__faq--size {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
     text-transform: none; }
   #cuerpoPaginaFAQ #accordionExample {
     width: 50%;
@@ -326,7 +324,8 @@
     width: 30%;
     margin-left: 15%; }
   .cuerpoContacto .cuerpoContacto__titulo {
-    font-family: 'Lemon/Milk light Regular';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 22px;
     color: #333;
     margin: 15px 0;
@@ -335,7 +334,7 @@
     border-bottom: 1px solid #333; }
   .cuerpoContacto .cuerpoContacto__parrafo {
     text-align: justify;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #616161;
     margin: 5px 0 10px 0; }
@@ -386,6 +385,8 @@
     .cuerpoIndex .cuerpoIndex__centro {
       width: 100%;
       margin: 0% 0% 0% 0%; }
+      .cuerpoIndex .cuerpoIndex__centro .cuerpoIndex__titulo {
+        margin: 0% 10% 5% 10%; }
       .cuerpoIndex .cuerpoIndex__centro .verProductos {
         background-color: #a984ba;
         text-align: center;
@@ -405,8 +406,6 @@
       text-align: center;
       width: 100%; }
       .header .header__nav .header__link {
-        color: snow;
-        text-decoration: none;
         margin: 0% 1% 0% 1%;
         padding: 1% 2%; }
       .header .header__nav .header__link--negro {
@@ -424,9 +423,9 @@
     .cuerpoIndex .cuerpoIndex__centro {
       width: 100%;
       margin: 0% 0% 0% 0%; }
+      .cuerpoIndex .cuerpoIndex__centro .cuerpoIndex__titulo {
+        margin: 0% 20% 5% 20%; }
       .cuerpoIndex .cuerpoIndex__centro .verProductos {
-        background-color: #a984ba;
-        text-align: center;
         padding: 3%;
         margin: 8% 35% 0% 35%;
         border-radius: 800px; } }
@@ -442,8 +441,6 @@
       text-align: center;
       width: 100%; }
       .header .header__nav .header__link {
-        color: snow;
-        text-decoration: none;
         margin: 0% 1% 0% 1%;
         padding: 1% 3%; }
       .header .header__nav .header__link--negro {
@@ -481,7 +478,7 @@
       .header .header__nav .header__link {
         margin: 1%;
         padding: 1% 3%;
-        font-size: 85%; }
+        font-size: 90%; }
       .header .header__nav .header__link--negro {
         color: #333; }
   .footer {
@@ -490,19 +487,11 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    padding: 1%;
-    background-color: snow; }
+    padding: 1%; }
     .footer .footer__cont {
-      font-family: 'Lemon/Milk light Regular';
-      font-weight: normal;
       font-size: 14px; }
       .footer .footer__cont .footer__link {
-        font-family: 'Lemon/Milk light Regular';
-        font-weight: normal;
         font-size: 14px;
-        text-transform: capitalize;
-        text-decoration: none;
-        color: #333;
         padding: 5px 0; }
   .cuerpoIndex {
     padding: 15% 0% 10% 0%; }
@@ -517,7 +506,9 @@
     .cuerpoP .cuerpoP__titulo {
       margin: 0% 10% 5% 5%; }
     .cuerpoP .cuerpoP__centro {
-      font-size: 8px; } }
+      font-size: 9px;
+      width: 100%;
+      margin: 0% 0% 0% 0%; } }
 
 @media only screen and (min-width: 576px) {
   .cuerpoP {
@@ -534,30 +525,29 @@
 
 @media only screen and (min-width: 768px) {
   .cuerpoP {
-    padding: 20% 0% 10% 0%; } }
-
-@media only screen and (min-width: 920px) {
-  .cuerpoP {
-    padding: 18% 0% 10% 0%; }
+    padding: 20% 0% 10% 0%; }
     .cuerpoP .cuerpoP__titulo {
-      margin: 0% 40% 5% 10%; } }
+      font-size: 2.25em; } }
+
+@media only screen and (min-width: 992px) {
+  .cuerpoP {
+    padding: 11% 0% 10% 0%;
+    font-size: 16px; }
+    .cuerpoP .cuerpoP__titulo {
+      margin: 0% 40% 5% 10%; }
+    .cuerpoP .cuerpoP__centro {
+      font-size: 16px; } }
 
 @media only screen and (min-width: 320px) {
   .cuerpoQS {
     padding: 45% 0% 20% 0%;
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-position: right; }
     .cuerpoQS .cuerpoQS__contenedor {
       width: 100%;
       margin: 0% 5% 0% 5%; }
     .cuerpoQS .cuerpoQS__parrafo {
-      font-family: 'Signika', sans-serif;
-      font-weight: normal;
       font-size: 16px;
-      color: #333;
       margin: 0% 5% 15% 10%;
-      text-align: justify;
       width: 70%; } }
 
 @media only screen and (min-width: 576px) {
@@ -570,12 +560,7 @@
       width: 100%;
       margin: 0% 5% 0% 5%; }
     .cuerpoQS .cuerpoQS__parrafo {
-      font-family: 'Signika', sans-serif;
-      font-weight: normal;
-      font-size: 16px;
-      color: #333;
       margin: 0% 5% 5% 10%;
-      text-align: justify;
       width: 70%; } }
 
 @media only screen and (min-width: 768px) {
@@ -589,45 +574,25 @@
 @media only screen and (min-width: 1200px) {
   .cuerpoQS {
     padding: 10% 0% 10% 0%;
-    background-image: url("imagenes/fondoQ.jpg");
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat; }
+    background-position: left; }
     .cuerpoQS .cuerpoQS__contenedor {
       width: 60%;
       margin: 0% 10% 0% 40%; }
     .cuerpoQS .cuerpoQS__titulo {
-      font-family: 'Lemon/Milk Regular';
-      font-weight: normal;
       font-size: 22px;
-      text-transform: uppercase;
-      color: #333;
       margin: 0% 0% 5% 3%;
-      border-bottom: 3px solid #333;
-      padding-bottom: 10px;
       width: 250px; }
     .cuerpoQS .cuerpoQS__parrafo {
-      font-family: 'Signika', sans-serif;
-      font-weight: normal;
-      font-size: 16px;
-      color: #333;
-      margin: 0% 0% 2% 5%;
-      text-align: justify; } }
+      margin: 0% 0% 2% 5%; } }
 
 @media only screen and (min-width: 320px) {
   #cuerpoPaginaFAQ {
-    background-image: url("imagenes/fondoQ.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     padding: 40% 0% 50% 0%; }
     #cuerpoPaginaFAQ p {
-      font-family: 'Lato', sans-serif;
       font-size: 12px;
       margin: 0%; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
-      font-family: 'Lato', sans-serif;
-      font-weight: normal;
       font-size: 8px;
       text-transform: none; }
     #cuerpoPaginaFAQ #accordionExample {
@@ -637,18 +602,12 @@
 
 @media only screen and (min-width: 576px) {
   #cuerpoPaginaFAQ {
-    background-image: url("imagenes/fondoQ.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     padding: 35% 0% 10% 0%; }
     #cuerpoPaginaFAQ p {
-      font-family: 'Lato', sans-serif;
       font-size: 14px;
       margin: 0%; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
-      font-family: 'Lato', sans-serif;
-      font-weight: normal;
       font-size: 10px;
       text-transform: none; }
     #cuerpoPaginaFAQ #accordionExample {
@@ -658,18 +617,12 @@
 
 @media only screen and (min-width: 768px) {
   #cuerpoPaginaFAQ {
-    background-image: url("imagenes/fondoQ.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     padding: 25% 0% 10% 0%; }
     #cuerpoPaginaFAQ p {
-      font-family: 'Lato', sans-serif;
       font-size: 16px;
       margin: 0%; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
-      font-family: 'Lato', sans-serif;
-      font-weight: normal;
       font-size: 12px;
       text-transform: none; }
     #cuerpoPaginaFAQ #accordionExample {
@@ -679,23 +632,17 @@
 
 @media only screen and (min-width: 992px) {
   #cuerpoPaginaFAQ {
-    background-image: url("imagenes/fondoQ.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     padding: 15% 0% 10% 0%; }
     #cuerpoPaginaFAQ p {
-      font-family: 'Lato', sans-serif;
       font-size: 18px;
       margin: 0%; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
-      font-family: 'Lato', sans-serif;
-      font-weight: normal;
       font-size: 14px;
       text-transform: none; }
     #cuerpoPaginaFAQ #accordionExample {
-      width: 80%;
-      margin: 0% 10% 0% 10%;
+      width: 70%;
+      margin: 0% 15% 0% 15%;
       border: none; } }
 
 @media only screen and (min-width: 320px) {
@@ -751,15 +698,14 @@
       margin-left: 15%;
       margin-right: auto; }
     .cuerpoContacto .cuerpoContacto__datos {
-      width: 180px;
-      height: 25px;
+      width: 190px;
+      height: 30px;
       padding: 0px 0px 0px 10px;
       margin: 0; }
     .cuerpoContacto .cuerpoContacto__mensaje {
-      width: 375px;
+      width: 385px;
       padding: 5px 0px 0px 10px; }
     .cuerpoContacto .cuerpoContacto__enviar {
-      font-family: 'Noto Sans', sans-serif;
       width: 385px;
       margin: 3px 0px 0px 0px;
       padding: 0px 0px 0px 10px; } }

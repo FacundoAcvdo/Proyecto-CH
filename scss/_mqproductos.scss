@@ -8,7 +8,9 @@
         }
 
         .cuerpoP__centro{
-            font-size: 8px;
+            font-size: 9px;
+            width: 100%;
+            margin: 0% 0% 0% 0%;
         }
     }
 }
@@ -37,15 +39,23 @@
 @media only screen and (min-width:768px){
     .cuerpoP{
         padding: 20% 0% 10% 0%;
+
+        .cuerpoP__titulo{
+            font-size:2.25em;
+        }
     }
 }
 
-@media only screen and (min-width:920px){
+@media only screen and (min-width:992px){
     .cuerpoP{
-        padding: 18% 0% 10% 0%;
+        padding: 11% 0% 10% 0%;
+        font-size: 16px;
 
         .cuerpoP__titulo{
             margin: 0% 40% 5% 10%;
+        }
+        .cuerpoP__centro{
+            font-size: 16px;
         }
     }
 }

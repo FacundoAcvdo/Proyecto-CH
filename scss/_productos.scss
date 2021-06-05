@@ -10,8 +10,8 @@
         padding-bottom: 0.9375rem;
         margin: 0% 40% 5% 10%;
         border-bottom: 0.125rem solid #333;
-        font-family:'Lemon/Milk Regular italic';
-        font-weight:normal;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:900;
         font-size:2.625em;
         text-transform: uppercase;
     }
@@ -22,14 +22,14 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         background-color: transparent;
         font-size: 16px;
     
         .cuerpoP__contenedor{
-            background-color: #f5f5f5;
+            background-color: white;
             width: 16.875em; 
-            margin-bottom: 1.875em;
+            margin:0em 0.125em 0.9375rem 0.125em;
             padding: 0.625em;
             display: grid;
             grid-template-areas:"fotoP""textoP""linkP";
@@ -47,18 +47,18 @@
             width: 15.625em;
             height: 15.625em;
             padding-bottom: 0.625rem;
-            margin-bottom: 0.9375rem;
+            margin-bottom: 1rem;
             border-bottom: 0.125rem solid #333;
         }
 
         .textoP{
             grid-area: textoP;
-            font-family:"Lemon/Milk Regular";
-            font-weight:normal;
-            text-transform: uppercase;
-            font-size:0.75em;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size:0.875em;
             color: #757575;
             width: 100%;
+            margin-bottom: 0.625em;
         }
         
         .linkP{
@@ -74,8 +74,8 @@
             text-decoration: none;
             text-align: center;
             color: #f5f5f5;
-            padding:0.625em;
-            margin-right:7.8125em;
+            padding:1.2em;
+            margin-right:9.375em;
         }
 
         .linkP:hover{
