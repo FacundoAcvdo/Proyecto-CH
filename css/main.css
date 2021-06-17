@@ -288,7 +288,7 @@
   #cuerpoPaginaFAQ p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0%; }
   #cuerpoPaginaFAQ .parrafo__faq--size {
     font-family: 'Poppins', sans-serif;
@@ -591,7 +591,8 @@
     padding: 40% 0% 50% 0%; }
     #cuerpoPaginaFAQ p {
       font-size: 12px;
-      margin: 0%; }
+      margin: 0%;
+      font-weight: 500; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
       font-size: 8px;
       text-transform: none; }
@@ -635,8 +636,9 @@
     background-position: center;
     padding: 15% 0% 10% 0%; }
     #cuerpoPaginaFAQ p {
-      font-size: 18px;
-      margin: 0%; }
+      font-size: 14px;
+      margin: 0%;
+      font-weight: 500; }
     #cuerpoPaginaFAQ .parrafo__faq--size {
       font-size: 14px;
       text-transform: none; }
